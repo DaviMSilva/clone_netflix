@@ -1,0 +1,59 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* principal*/
+
+.filme-principal{
+    font-size: 16px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa_the_office2.jpg');
+    background-size: cover;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+}
+.titulo {
+    font-size: 50px;
+}
