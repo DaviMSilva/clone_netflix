@@ -24,12 +24,13 @@ header .container{
 header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
+    font-size: 50px;
 }
 
 header nav a{
     padding: 5px 5px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', Helvetica, sans-serif;
     color: #aaa;
     margin-right: 10px;
 }
@@ -98,4 +99,15 @@ header nav a:hover{
 
 .filme-principal .container{
     width: 70%;
+}
+
+.box-filme {
+    height:  100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
